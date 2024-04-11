@@ -114,8 +114,7 @@ body {
 }
 
 .apresentacao__foto {
-    Width: 467.71px;
-    Height: 532px;
+    Width: 60%;
     border-radius: 20%;
 }
 
@@ -153,10 +152,9 @@ body {
     }
 
     .cabecalho__menu{
-        display: flex;
         justify-content: center;
     }
-
+    
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
