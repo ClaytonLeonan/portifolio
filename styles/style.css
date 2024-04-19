@@ -114,8 +114,9 @@ body {
 }
 
 .apresentacao__foto {
-    Width: 60%;
+    Width: 40%;
     border-radius: 20%;
+    
 }
 
 /* FIM DA ESTILIZAÇÃO DO MAIN*/
@@ -130,7 +131,7 @@ body {
     text-align: center;
     padding: 24px;
     font-family:var(--font-secundaria) ;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 400;
 }
 
@@ -145,10 +146,11 @@ body {
 
 /* FIM DA ESTILIZAÇÃO*/
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
 
     .cabecalho{
-        padding: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .cabecalho__menu{
@@ -164,6 +166,34 @@ body {
         width: auto;
     }
 
-    
+}
+*/
 
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%; /* Ou outra altura em pixels que funcione para você */
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1em;
+    }
+
+    .apresentacao__foto {
+        Width: 60%;
+        
+    }
 }
